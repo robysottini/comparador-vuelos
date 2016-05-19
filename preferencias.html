@@ -1,0 +1,67 @@
+<section>
+    <div class="row">
+        <div class="well well-sm col-md-12">
+            <div class="row">
+
+                <!-- Apartado para selección de fecha de partida -->
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="form-group">
+                        <label class="control-label" for="fechaPartida">
+                            <strong>Partida</strong>
+                        </label>
+                        <p class="input-group">
+                            <input type="date" class="form-control" datepicker-popup ng-model="fechaPartida" 
+                                is-open="openedFechaPartida" datepicker-options="dateOptions" show-button-bar="false" 
+                                ng-required="true" />
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default" ng-click="openFechaPartida($event)">
+                                    <i class="glyphicon glyphicon-calendar">
+                                    </i>
+                                </button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Apartado para selección de fecha de regreso -->
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="control-label" for="fechaRegreso">
+                                    <strong>Regreso</strong>
+                                </label>
+                                <p class="input-group">
+                                    <input type="date" class="form-control" datepicker-popup ng-model="fechaRegreso" 
+                                        is-open="openedFechaRegreso" datepicker-options="dateOptions" show-button-bar="false" 
+                                        ng-required="true" ng-disabled="soloIda" />
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default" ng-click="openFechaRegreso($event)">
+                                            <i class="glyphicon glyphicon-calendar">
+                                            </i>
+                                        </button>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <label class="control-label">
+                            <input type="checkbox" ng-model="soloIda"><strong> Sólo ida</strong>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Apartado para selección de adultos -->
+                <div class="col-md-1">  
+                    <div class="form-group">                            
+                        <label class="control-label" for="adultos">
+                            <strong>Adultos</strong>
+                        </label>
+                        <select class="form-control" ng-model="adulto" ng-options="adulto.valor for adulto in adultos"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,8 @@
+[
+    {"nombre": "Exacta", "valor": "", "partida": false, "regreso": false},
+    {"nombre": "1 día antes", "valor": "-flexible-1day-before", "partida": false, "regreso": false},
+    {"nombre": "1 día después", "valor": "-flexible-1day-after", "partida": false, "regreso": false},
+    {"nombre": "1 día antes y después", "valor": "-flexible-1day", "partida": false, "regreso": false},
+    {"nombre": "2 días antes y después", "valor": "-flexible-2days", "partida": false, "regreso": false},
+    {"nombre": "3 días antes y después", "valor": "-flexible", "partida": false, "regreso": false}
+]

@@ -1,0 +1,21 @@
+<header>
+    <!-- Título para ventanas medianas y grandes -->
+    <div class="page-header col-md-12 col-lg-12 hidden-xs hidden-sm">
+        <h1>Comparador de vuelos.
+            <small ng-repeat="agencia in agencias">
+                <span class="glyphicon glyphicon-plane" aria-hidden="true"></span> {{agencia.nombre}}</small>
+        </h1>
+    </div>
+    
+    <!-- Título para ventanas extra pequeñas y pequeñas -->
+    <div class="page-header col-xs-12 col-sm-12 hidden-md hidden-lg">
+        <h1>Comparador de vuelos
+            <br>
+            <span ng-repeat="agencia in agencias">
+                <small>
+                    <div class="glyphicon glyphicon-plane" aria-hidden="true">{{agencia.nombre}}</div>
+                </small>
+            </span>
+        </h1>
+    </div>
+</header>

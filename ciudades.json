@@ -1,0 +1,38 @@
+[
+    {"codigo": "BUE", "codigoT": "5694", "origen": false, "destino": false, "latitude": -34.6036369, "longitude": -58.381559700000025, "nombre": "Buenos Aires", "pais": "Argentina"},
+    {"codigo": "USH", "codigoT": "5748", "origen": false, "destino": false, "latitude": -54.8021591, "longitude": -68.30275929999999, "nombre": "Ushuaia", "pais": "Argentina"},
+    {"codigo": "SCL", "codigoT": "6039", "origen": false, "destino": false, "latitude": -33.4499162, "longitude": -70.66665899999998, "nombre": "Santiago", "pais": "Chile"},
+    {"codigo": "PUQ", "codigoT": "6037", "origen": false, "destino": false, "latitude": -53.16379329999999, "longitude": -70.91726160000002, "nombre": "Punta Arenas", "pais": "Chile"},
+    {"codigo": "RIO", "codigoT": "5948", "origen": false, "destino": false, "latitude": -22.9071455, "longitude": -43.17419469999999, "nombre": "Río de Janeiro", "pais": "Brasil"},
+    
+    {"codigo": "LON", "codigoT": "2757", "origen": false, "destino": false, "latitude": 51.50730189999999, "longitude": -0.1274289000000408, "nombre": "Londres", "pais": "Reino Unido"},
+    {"codigo": "AMS", "codigoT": "3051", "origen": false, "destino": false, "latitude": 52.36721467920585, "longitude": 4.895825386047363, "nombre": "Ámsterdam", "pais": "Holanda"},
+    {"codigo": "MAD", "codigoT": "2262", "origen": false, "destino": false, "latitude": 40.43590745264018, "longitude": -3.707413673400879, "nombre": "Madrid", "pais": "España"},
+    {"codigo": "BCN", "codigoT": "2009", "origen": false, "destino": false, "latitude": 41.38505929999999, "longitude": 2.1734069000000322, "nombre": "Barcelona", "pais": "España"},
+    {"codigo": "BIO", "codigoT": "2035", "origen": false, "destino": false, "latitude": 43.2633623, "longitude": -2.934790199999952, "nombre": "Bilbao", "pais": "España"},
+    {"codigo": "SDR", "codigoT": "2380", "origen": false, "destino": false, "latitude": 43.4621576, "longitude": -3.8099836000000096, "nombre": "Santander", "pais": "España"},
+    {"codigo": "PMI", "codigoT": "2324", "origen": false, "destino": false, "latitude": 39.5667, "longitude": 2.6500, "nombre": "Palma de Mallorca", "pais": "España"},
+    {"codigo": "BER", "codigoT": "1661", "origen": false, "destino": false, "latitude": 52.5201126, "longitude": 13.404510699999946, "nombre": "Berlín", "pais": "Alemania"},
+    {"codigo": "FRA", "codigoT": "1690", "origen": false, "destino": false, "latitude": 50.1107715, "longitude": 8.682222300000035, "nombre": "Frankfurt", "pais": "Alemania"},
+    {"codigo": "ROM", "codigoT": "4753", "origen": false, "destino": false, "latitude": 41.90289800000001, "longitude": 12.496380700000032, "nombre": "Roma", "pais": "Italia"},
+    {"codigo": "MIL", "codigoT": "2967", "origen": false, "destino": false, "latitude": 45.46549, "longitude": 9.185879999999997, "nombre": "Milán", "pais": "Italia"},
+    
+    {"codigo": "OSL", "codigoT": "3115", "origen": false, "destino": false, "latitude": 59.9139499, "longitude": 10.752238600000055, "nombre": "Oslo", "pais": "Noruega"},
+    {"codigo": "STO", "codigoT": "3314", "origen": false, "destino": false, "latitude": 59.3296842, "longitude": 18.068402300000002, "nombre": "Estocolmo", "pais": "Suecia"},
+    {"codigo": "HEL", "codigoT": "2460", "origen": false, "destino": false, "latitude": 60.1728878, "longitude": 24.941354100000012, "nombre": "Helsinki", "pais": "Finlandia"},
+    {"codigo": "CPH", "codigoT": "1874", "origen": false, "destino": false, "latitude": 55.676117, "longitude": 12.56820300000004, "nombre": "Copenhague", "pais": "Dinamarca"},
+
+    {"codigo": "TLL", "codigoT": "1896", "origen": false, "destino": false, "latitude": 59.437372, "longitude": 24.753970799999934, "nombre": "Tallin", "pais": "Estonia"},
+    {"codigo": "RIX", "codigoT": "3041", "origen": false, "destino": false, "latitude": 56.9498243, "longitude": 24.105376699999965, "nombre": "Riga", "pais": "Letonia"},
+    {"codigo": "VNO", "codigoT": "3037", "origen": false, "destino": false, "latitude": 54.6871582, "longitude": 25.279652899999974, "nombre": "Vilna", "pais": "Lituania"},
+
+    {"codigo": "WAW", "codigoT": "3168", "origen": false, "destino": false, "latitude": 52.229513, "longitude": 21.013182899999947, "nombre": "Varsovia", "pais": "Polonia"},
+    {"codigo": "KRK", "codigoT": "3152", "origen": false, "destino": false, "latitude": 50.0648384, "longitude": 19.945058300000028, "nombre": "Cracovia", "pais": "Polonia"},
+    {"codigo": "PRG", "codigoT": "1650", "origen": false, "destino": false, "latitude": 50.0756294, "longitude": 14.437947200000053, "nombre": "Praga", "pais": "República Checa"},
+    {"codigo": "BTS", "codigoT": "3332", "origen": false, "destino": false, "latitude": 48.1459258, "longitude": 17.107193800000005, "nombre": "Bratislava", "pais": "Eslovaquia"},
+    {"codigo": "BUD", "codigoT": "2881", "origen": false, "destino": false, "latitude": 47.4975437, "longitude": 19.040163600000028, "nombre": "Budapest", "pais": "Hungría"},
+    {"codigo": "ZAG", "codigoT": "2880", "origen": false, "destino": false, "latitude": 45.8150766, "longitude": 15.982027700000003, "nombre": "Zagreb", "pais": "Croacia"},
+    {"codigo": "DBV", "codigoT": "2874", "origen": false, "destino": false, "latitude": 42.6508605, "longitude": 18.094321100000002, "nombre": "Dubrovnik", "pais": "Croacia"},
+    {"codigo": "PUY", "codigoT": "2876", "origen": false, "destino": false, "latitude": 44.8666148, "longitude": 13.849584700000037, "nombre": "Pula", "pais": "Croacia"},
+    {"codigo": "SPU", "codigoT": "2878", "origen": false, "destino": false, "latitude": 43.5080756, "longitude": 16.44034940000006, "nombre": "Split", "pais": "Croacia"}
+]

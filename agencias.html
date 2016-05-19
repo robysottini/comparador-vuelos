@@ -1,0 +1,101 @@
+<section>
+    <div class="row">
+        <div class="well well-sm col-md-12">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-1">
+                    
+                    <div class="form-group">
+                        <label class="control-label">
+                            <strong>Agencia de viajes</strong>
+                        </label>
+                    </div>
+
+                    <div ng-repeat="agencia in agencias">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" ng-model="agencia.valor" ng-click="isCollapsed = !isCollapsed"/>
+                                            <img ng-src="{{agencia.img}}" class="img-responsive" alt="{{agencia.nombre}}" />
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Kayak: Flexibilidad de fechas -->
+                            <div ng-show="'{{agencia.nombre}}' == 'Kayak'">
+                                <div collapse="isCollapsed">
+                                    <!-- Flexibilidad de fecha de partida -->
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label" for="flexibilidadPartida">
+                                                <strong>Flexibilidad de partida</strong>
+                                            </label>
+                                            <select class="form-control" ng-model="flexibilidadPartida" ng-options="flexible.nombre for flexible in flexibilidades"></select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Flexibilidad de fecha de regreso -->
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label" for="flexibilidadRegreso">
+                                                <strong>Flexibilidad de regreso</strong>
+                                            </label>
+                                            <select class="form-control" ng-model="flexibilidadRegreso" ng-disabled="soloIda" ng-options="flexible.nombre for flexible in flexibilidades"></select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Skyscanner: Selección de moneda -->                                        
+                            <div ng-show="'{{agencia.nombre}}' == 'Skyscanner'">
+                                <div collapse="isCollapsed">
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label class="control-label" for="selectMonedaSkyscanner">
+                                                <strong>Moneda</strong>
+                                            </label>
+                                            <select class="form-control" ng-model="moneda" ng-options="moneda.nombre for moneda in monedas"></select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- LAN Argentina: Flexibilidad de fechas -->
+                            <div ng-show="'{{agencia.nombre}}' == 'LAN Argentina'">
+                                <div collapse="isCollapsed">
+                                    <!-- Flexibilidad de fecha de partida -->
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label" for="flexibilidadPartida">
+                                                <strong>Flexibilidad de partida</strong>
+                                            </label>
+                                            <select class="form-control" ng-model="flexibilidadPartida" ng-options="flexible.nombre for flexible in flexibilidades"></select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Flexibilidad de fecha de regreso -->
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label" for="flexibilidadRegreso">
+                                                <strong>Flexibilidad de regreso</strong>
+                                            </label>
+                                            <select class="form-control" ng-model="flexibilidadRegreso" ng-disabled="soloIda" ng-options="flexible.nombre for flexible in flexibilidades"></select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-10">
+                                <hr/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

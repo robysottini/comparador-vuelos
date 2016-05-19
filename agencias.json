@@ -1,0 +1,8 @@
+[
+    {"nombre": "Despegar", "img": "img/logo_despegar.png", "valor": false},
+    {"nombre": "Kayak", "img": "img/logo_kayak.png", "valor": false},
+    {"nombre": "Momondo", "img": "img/logo_momondo.png", "valor": false},
+    {"nombre": "Skyscanner", "img": "img/logo_skyscanner.png", "valor": false},
+    {"nombre": "Transatlántica", "img": "img/logo_transatlantica.png", "valor": false},
+    {"nombre": "LAN Argentina", "img": "img/logo_lan-argentina.png", "valor": false}
+]

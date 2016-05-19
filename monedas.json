@@ -1,0 +1,5 @@
+[
+    {"nombre": "Euro", "valor": "EUR"},
+    {"nombre": "Dólar", "valor": "USD"},
+    {"nombre": "Peso", "valor": "ARS"}
+]

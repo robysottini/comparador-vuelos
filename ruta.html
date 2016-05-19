@@ -1,0 +1,71 @@
+<section>
+    <!-- Apartado para selección de orígenes y destinos -->
+    <div class="row">
+        <div class="well well-sm col-md-12 col-xs-12 col-sm-12">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <label class="control-label">
+                        <strong>Origen</strong>                         
+                    </label>
+
+                    <div class="checkbox" ng-repeat="ciudad in ciudades">
+                        <div ng-if="ciudad.nombre !== 'Separador'">
+                            <label>
+                                <input type="checkbox" ng-model="ciudad.origen">
+                                <span class="text-info"><strong>{{ciudad.nombre}}</strong></span>, {{ciudad.pais}}</label>
+                        </div>
+                        <div ng-if="ciudad.nombre == 'Separador'">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-10">
+                    <div class="hidden-md hidden-lg">
+                        <hr>
+                    </div>
+
+                    <label class="control-label">
+                        <strong>Destino</strong>
+                    </label>
+
+                    <div class="checkbox" ng-repeat="ciudad in ciudades">
+                        <div ng-if="ciudad.nombre !== 'Separador'">
+                            <label>
+                                <input type="checkbox" ng-model="ciudad.destino">
+                                <span class="text-info"><strong>{{ciudad.nombre}}</strong></span>, {{ciudad.pais}}</label>
+                        </div>                                    
+                        <div ng-if="ciudad.nombre == 'Separador'">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-10">
+                    <div class="hidden-md hidden-lg">
+                        <hr>
+                    </div>
+
+                    <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+                        <ui-gmap-google-map center="mapa.centro" zoom="mapa.zoom">
+                            <ui-gmap-markers models="marcadoresOrigen" coords="'self'">
+                            </ui-gmap-markers>
+                            <ui-gmap-markers models="marcadoresDestino" coords="'self'">
+                            </ui-gmap-markers>
+                        </ui-gmap-google-map>
+                    </div>
+
+                    <div class="col-xs-12 col-xs-12 hidden-md hidden-lg">
+                        <ui-gmap-google-map center="mapa.centro" zoom="mapa.zoom" options="mapa.opciones">
+                            <ui-gmap-markers models="marcadoresOrigen" coords="'self'">
+                            </ui-gmap-markers>
+                            <ui-gmap-markers models="marcadoresDestino" coords="'self'" icon="marcadorDestino.icon">
+                            </ui-gmap-markers>
+                        </ui-gmap-google-map>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
